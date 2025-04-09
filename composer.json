@@ -12,10 +12,7 @@
         "php": "^8.4",
 
         "decodelabs/exceptional": "^0.5.3",
-        "decodelabs/harvest": "^0.4.1",
-        "decodelabs/tagged": "^0.19",
-        "decodelabs/veneer": "^0.12.6",
-        "decodelabs/zest": "^0.5"
+        "decodelabs/veneer": "^0.12.6"
     },
     "require-dev": {
         "decodelabs/phpstan-decodelabs": "^0.7.0"
