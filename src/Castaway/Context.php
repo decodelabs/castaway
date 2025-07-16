@@ -10,10 +10,11 @@ declare(strict_types=1);
 namespace DecodeLabs\Castaway;
 
 use DecodeLabs\Castaway;
-use DecodeLabs\Tagged\Element;
 use DecodeLabs\Veneer;
 
-class Context {}
+class Context
+{
+}
 
 // Register the Veneer facade
 Veneer\Manager::getGlobalManager()->register(
