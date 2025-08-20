@@ -9,15 +9,10 @@ declare(strict_types=1);
 
 namespace DecodeLabs\Castaway;
 
-use DecodeLabs\Castaway;
-use DecodeLabs\Veneer;
+use DecodeLabs\Kingdom\Service;
+use DecodeLabs\Kingdom\ServiceTrait;
 
-class Context
+class Context implements Service
 {
+    use ServiceTrait;
 }
-
-// Register the Veneer facade
-Veneer\Manager::getGlobalManager()->register(
-    Context::class,
-    Castaway::class
-);
