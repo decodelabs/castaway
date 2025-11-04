@@ -1,8 +1,8 @@
 <?php
 
 /**
- * @package Castaway
- * @license http://opensource.org/licenses/MIT
+ * Castaway
+ * @license https://opensource.org/licenses/MIT
  */
 
 declare(strict_types=1);
