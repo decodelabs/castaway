@@ -6,4 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Unreleased
 - Built initial implementation
+- Added AGENTS.md
+- Integrated Chorus dev dependency
 - Upgraded Exceptional to v0.6
+
